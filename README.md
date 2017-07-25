@@ -1,55 +1,87 @@
+# Heroku deployment guide
 
-![intro](http://i.imgur.com/RgGlNpQ.jpg)
+*If you're looking for the local installation instructions, go
+[here](https://github.com/MeLlamoPablo/schedulebot#schedulebot).*
 
-# Red - A fully customizable Discord bot
-#### *Music, admin, trivia, fun commands and much more!*
-[<img src="https://img.shields.io/badge/Support-me!-orange.svg">](https://www.patreon.com/Twentysix26)  [<img src="https://img.shields.io/badge/discord-py-blue.svg">](https://github.com/Rapptz/discord.py) [<img src="https://discordapp.com/api/guilds/133049272517001216/widget.png?style=shield">](https://discord.gg/red) [![Build Status](https://travis-ci.org/Twentysix26/Red-DiscordBot.svg?branch=develop)](https://travis-ci.org/Twentysix26/Red-DiscordBot)
+If you wanted to host ScheduleBot locally, you'd need to have your computer on 24/7 to have your
+bot always online. To avoid that, we could use a PaaS provider, such as
+[Heroku](https://www.heroku.com/). Heroku's free plan is good enough for hosting our bot.
 
-**Red** is a fully modular bot – meaning all features and commands can be enabled/disabled to your liking, making it completely customizable.  
-This is also a *self-hosted bot* – meaning you will need to host and maintain your own instance. You can turn Red into an admin bot, music bot, trivia bot, new best friend or all of these together!  
-[Installation is easy](https://twentysix26.github.io/Red-Docs/), and you do NOT need to know anything about coding! Aside from installation and updating, every part of the bot can be controlled from within Discord.
+## Deployment instructions
 
-The default set of modules includes and is not limited to:
-* Moderation features (kick/ban/softban/hackban, mod-log, filter, chat cleanup)
-* Trivia (lists are included and can be easily added)
-* Music features (YouTube, SoundCloud, local files, playlists, queues)
-* Stream alerts (Twitch, Hitbox, Beam)
-* Slot machines
-* Custom commands
-* Imgur/gif search
+To deploy ScheduleBot to Heroku, you will need:
 
-Additionally, other modules (cogs) can be easily found and added from our growing community of cog repositories. Including:
-* Cleverbot integration (talk to Red and she talks back)
-* Loggers
-* Welcome messages setup
-* Reminders
-* Raffles
-* Leveler (increase levels for server participation)
-* DotA
-* And much, much more!
+* [NodeJS](https://nodejs.org/en/download/) 6 or above.
+* [git](https://git-scm.com/downloads).
 
-Feel free to take a [peek](https://cogs.red/)!
+First, [sign up to Heroku](https://signup.heroku.com/), and create an app. You may deploy your
+bot using the Heroku CLI, or GitHub. I recommend GitHub, as it's easier. If you choose Heroku
+CLI, follow the instructions there. If you choose GitHub, first fork this repository. Then, clone
+ your fork and checkout the `heroku` branch, and install the dependencies:
 
-# Installation
+```sh
+$ git clone https://github.com/<your_github_username>/schedulebot.git
+$ cd schedulebot
+$ git checkout heroku
+$ npm install
+```
 
-The installation process is straightforward; all major platforms are supported: 
-* [Windows](https://twentysix26.github.io/Red-Docs/red_install_windows/)
-* [Linux](https://twentysix26.github.io/Red-Docs/red_install_linux/)
-* [macOS](https://twentysix26.github.io/Red-Docs/red_install_mac/)
+The `heroku` branch is ready to be compatible with Heroku. The differences from `master` are:
 
-Read the [getting started](https://twentysix26.github.io/Red-Docs/red_getting_started/) guide to quickly learn how to use Red.  
+* The database settings are no longer stored in `config.js`, as they are provided by Heroku through
+an environment variable.
+* The `package.json` file is modified to tell Heroku to use Node 6.
+* A `Procfile` with your bot's process is included.
 
-If you have any other questions, feel free to explore the [Docs](https://twentysix26.github.io/Red-Docs/) for guidance.
+Now edit the bot's settings in `config.js`. You can edit or leave whatever you want, but you should
+at least edit:
 
-If [*after reading the guides*](https://twentysix26.github.io/Red-Docs/) you are still experiencing issues that are not listed on [this page](https://twentysix26.github.io/Red-Docs/red_guide_troubleshooting/) or in the [FAQs](https://twentysix26.github.io/Red-Docs/red_faq/), feel free to join the [official server](https://discord.gg/red) for help.  
-Have fun!
+* `master_channel` with the Discord channel where your bot will operate.
+	* If you don't know how to get it, go to Discord's settings, then `Appearance`, then check
+	`Developer Mode`. After that, right click on your channel, and click `Copy ID`.
+* `default_timezone` with the time zone which will be used by the bot.
 
-# Join the community!
+Next step is configuring your database. In your app's dashboard, go to `Resources`, and under
+`Add-ons`, click `Find more add-ons`. Then search `Heroku Posgres` and add it to your app. The
+free version is good enough for personal use.
 
-Red is in continuous development, and it’s supported by an active community which produces new content (cogs/plugins) for everyone to enjoy. New features are constantly added. If you can’t [find](https://cogs.red/) what you’re looking for, we are open to suggestions! Stay tuned by [joining the official server](https://discord.gg/red)!
+After adding it, you'll find it under the `Add-ons` section. Click on it to your Heroku Postgres
+dashboard, and then click on your newly created Datastore. Scroll down to `Database Credentials`,
+ and click `View Credentials`. Now run the setup script entering those credentials:
 
-# License
+```sh
+$ npm run setup
+```
 
-Released under the [GNU GPL v3](LICENSE).
+Follow the script's instructions. After you're done, you're ready to push your repo to GitHub:
 
-*Red is named after the main character of "Transistor", a videogame by [Supergiant Games](https://www.supergiantgames.com/games/transistor/)*
+```sh
+$ git add .
+$ git commit -m "Ready to deploy"
+$ git push --all
+```
+
+Before deploying your bot, let's add your bot user to your Discord server. In order to do so, go 
+to the [Discord dev center](https://discordapp.com/developers/applications/me/) and click on your
+application, then grab your Client ID. Then go to the following link in your browser:
+ 
+```
+https://discordapp.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&scope=bot&permissions=0x00002000
+```
+
+Replace `YOUR_CLIENT_ID` by your bot's client ID. Don't forget to grant the "Manage Messages" 
+permission.
+
+Now, in your Heroku dashboard, go to `Deploy`, select `GitHub`, connect your account, and add
+your fork. Be sure to select the `heroku` branch.
+
+The first build should be triggered. When it's done, navigate to `Resources`, and, if everything
+went right, you should see two Dynos: `web`, and `bot`. Shutdown `web`, as we don't need it, and
+turn on `bot`. After that, your bot will be loaded. Go to the top right corner, under `More`,
+then `View Logs` to see the console log. If you see the message `Running!`, the bot is live.
+Congratulations!
+
+# Usage guide
+
+After deploying your bot, you might want to check out the
+[usage guide](https://github.com/MeLlamoPablo/schedulebot/blob/master/usage/usage-guide.md).

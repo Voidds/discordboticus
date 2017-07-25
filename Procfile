@@ -1,1 +1,1 @@
-web: gunicorn gettingstarted.wsgi --log-file -
+bot: node ./lib/index.js
