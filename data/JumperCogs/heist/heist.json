@@ -1,0 +1,120 @@
+{
+    "Servers" : {
+        "285072791747690507" : {
+            "Config" : {
+                "Alert" : 136850,
+                "Alert Time" : 0,
+                "Bail Base" : 500,
+                "Crew Output" : "None",
+                "Death Timer" : 86400,
+                "Hardcore" : false,
+                "Heist Cost" : 100,
+                "Heist Planned" : false,
+                "Heist Start" : false,
+                "Police Alert" : 60,
+                "Sentence Base" : 600,
+                "Theme" : "Pirate",
+                "Version" : 2.225,
+                "Wait Time" : 20
+            },
+            "Crew" : {},
+            "Players" : {
+                "182913116579954688" : {
+                    "Bail Cost" : 0,
+                    "Criminal Level" : 0,
+                    "Death Timer" : 0,
+                    "Deaths" : 0,
+                    "Jail Counter" : 0,
+                    "Name" : "Isabj\ud83c\udf0c",
+                    "OOB" : false,
+                    "Sentence" : 0,
+                    "Spree" : 1,
+                    "Status" : "Free",
+                    "Time Served" : 0,
+                    "Total Jail" : 0
+                },
+                "208020419721166849" : {
+                    "Bail Cost" : 0,
+                    "Criminal Level" : 0,
+                    "Death Timer" : 0,
+                    "Deaths" : 0,
+                    "Jail Counter" : 0,
+                    "Name" : "\"green",
+                    "OOB" : false,
+                    "Sentence" : 0,
+                    "Spree" : 1,
+                    "Status" : "Free",
+                    "Time Served" : 0,
+                    "Total Jail" : 0
+                }
+            },
+            "Targets" : {
+                "Hannin" : {
+                    "Crew" : 60,
+                    "Success" : 25,
+                    "Vault" : 2500,
+                    "Vault Max" : 2500
+                },
+                "Roboticus" : {
+                    "Crew" : 50,
+                    "Success" : 40,
+                    "Vault" : 2000,
+                    "Vault Max" : 2000
+                },
+                "Sugarpie" : {
+                    "Crew" : 100,
+                    "Success" : 30,
+                    "Vault" : 500,
+                    "Vault Max" : 500
+                }
+            },
+            "Theme" : {
+                "Bail" : "bribe",
+                "Crew" : "crew",
+                "Heist" : "raid",
+                "Jail" : "brig",
+                "OOB" : "good will",
+                "Police" : "Royal Navy",
+                "Sentence" : "punishment",
+                "Vault" : "treasure"
+            }
+        },
+        "324296893167566849" : {
+            "Config" : {
+                "Alert Time" : 0,
+                "Bail Base" : 500,
+                "Crew Output" : "None",
+                "Death Timer" : 86400,
+                "Hardcore" : false,
+                "Heist Cost" : 100,
+                "Heist Planned" : false,
+                "Heist Start" : false,
+                "Police Alert" : 60,
+                "Sentence Base" : 600,
+                "Theme" : "Heist",
+                "Version" : 2.225,
+                "Wait Time" : 20
+            },
+            "Crew" : {},
+            "Players" : {},
+            "Targets" : {
+                "Erica Moen" : {
+                    "Crew" : 10,
+                    "Success" : 50,
+                    "Vault" : 2000,
+                    "Vault Max" : 2000
+                }
+            },
+            "Theme" : {
+                "Bail" : "bail",
+                "Crew" : "crew",
+                "Heist" : "heist",
+                "Jail" : "jail",
+                "OOB" : "out on bail",
+                "Police" : "Police",
+                "Sentence" : "sentence",
+                "Vault" : "vault"
+            }
+        }
+    }
+}

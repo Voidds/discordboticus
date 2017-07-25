@@ -1,0 +1,282 @@
+[21/07/2017 00:02] ERROR red on_command_error 369: Exception in command 'userbar'
+Traceback (most recent call last):
+  File "lib\PIL\JpegImagePlugin.py", line 602, in _save
+    rawmode = RAWMODE[im.mode]
+KeyError: 'RGBA'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\drawing.py", line 879, in userbar
+    result.save('data/drawing/temp.jpg','JPEG', quality=100)
+  File "lib\PIL\Image.py", line 1893, in save
+    save_handler(self, fp, filename)
+  File "lib\PIL\JpegImagePlugin.py", line 604, in _save
+    raise IOError("cannot write mode %s as JPEG" % im.mode)
+OSError: cannot write mode RGBA as JPEG
+[21/07/2017 00:05] ERROR red on_command_error 369: Exception in command 'userbar'
+Traceback (most recent call last):
+  File "lib\PIL\JpegImagePlugin.py", line 602, in _save
+    rawmode = RAWMODE[im.mode]
+KeyError: 'RGBA'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\drawing.py", line 879, in userbar
+    result.save('data/drawing/temp.jpg','JPEG', quality=100)
+  File "lib\PIL\Image.py", line 1893, in save
+    save_handler(self, fp, filename)
+  File "lib\PIL\JpegImagePlugin.py", line 604, in _save
+    raise IOError("cannot write mode %s as JPEG" % im.mode)
+OSError: cannot write mode RGBA as JPEG
+[21/07/2017 00:24] ERROR red on_command_error 369: Exception in command 'gif'
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\image.py", line 131, in gif
+    result = await r.json()
+  File "lib\aiohttp\client_reqrep.py", line 789, in json
+    return loads(stripped.decode(encoding))
+  File "C:\Users\Carlos\AppData\Local\Programs\Python\Python35\lib\json\__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Carlos\AppData\Local\Programs\Python\Python35\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Carlos\AppData\Local\Programs\Python\Python35\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[21/07/2017 00:26] ERROR red on_command_error 369: Exception in command 'gif'
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\image.py", line 131, in gif
+    result = await r.json()
+  File "lib\aiohttp\client_reqrep.py", line 789, in json
+    return loads(stripped.decode(encoding))
+  File "C:\Users\Carlos\AppData\Local\Programs\Python\Python35\lib\json\__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Carlos\AppData\Local\Programs\Python\Python35\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Carlos\AppData\Local\Programs\Python\Python35\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[21/07/2017 09:08] ERROR red on_command_error 369: Exception in command 'build meme'
+Traceback (most recent call last):
+  File "lib\PIL\JpegImagePlugin.py", line 602, in _save
+    rawmode = RAWMODE[im.mode]
+KeyError: 'RGBA'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\drawing.py", line 319, in meme
+    result.save('data/drawing/temp.jpg','JPEG', quality=100)
+  File "lib\PIL\Image.py", line 1893, in save
+    save_handler(self, fp, filename)
+  File "lib\PIL\JpegImagePlugin.py", line 604, in _save
+    raise IOError("cannot write mode %s as JPEG" % im.mode)
+OSError: cannot write mode RGBA as JPEG
+[21/07/2017 09:13] ERROR red on_command_error 369: Exception in command 'build meme'
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\drawing.py", line 241, in meme
+    bg_url = answer.attachments[0]["url"]
+AttributeError: 'NoneType' object has no attribute 'attachments'
+[21/07/2017 09:16] ERROR red on_command_error 369: Exception in command 'build meme'
+Traceback (most recent call last):
+  File "lib\PIL\JpegImagePlugin.py", line 602, in _save
+    rawmode = RAWMODE[im.mode]
+KeyError: 'RGBA'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\drawing.py", line 319, in meme
+    result.save('data/drawing/temp.jpg','JPEG', quality=100)
+  File "lib\PIL\Image.py", line 1893, in save
+    save_handler(self, fp, filename)
+  File "lib\PIL\JpegImagePlugin.py", line 604, in _save
+    raise IOError("cannot write mode %s as JPEG" % im.mode)
+OSError: cannot write mode RGBA as JPEG
+[21/07/2017 17:13] ERROR red on_command_error 369: Exception in command 'cleanup messages'
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\mod.py", line 865, in messages
+    await self.mass_purge(to_delete)
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\mod.py", line 1286, in mass_purge
+    await self.bot.delete_messages(messages[:100])
+  File "lib\discord\client.py", line 1302, in delete_messages
+    yield from self.http.delete_messages(channel.id, message_ids, guild_id)
+  File "lib\discord\http.py", line 200, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: BAD REQUEST (status code: 400): You can only bulk delete messages that are under 14 days old.
+[21/07/2017 17:15] ERROR red on_command_error 369: Exception in command 'cleanup messages'
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\mod.py", line 865, in messages
+    await self.mass_purge(to_delete)
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\mod.py", line 1286, in mass_purge
+    await self.bot.delete_messages(messages[:100])
+  File "lib\discord\client.py", line 1302, in delete_messages
+    yield from self.http.delete_messages(channel.id, message_ids, guild_id)
+  File "lib\discord\http.py", line 200, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: BAD REQUEST (status code: 400): You can only bulk delete messages that are under 14 days old.
+[21/07/2017 17:15] ERROR red on_command_error 369: Exception in command 'cleanup messages'
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\mod.py", line 865, in messages
+    await self.mass_purge(to_delete)
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\mod.py", line 1286, in mass_purge
+    await self.bot.delete_messages(messages[:100])
+  File "lib\discord\client.py", line 1302, in delete_messages
+    yield from self.http.delete_messages(channel.id, message_ids, guild_id)
+  File "lib\discord\http.py", line 200, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: BAD REQUEST (status code: 400): You can only bulk delete messages that are under 14 days old.
+[21/07/2017 17:17] ERROR red on_command_error 369: Exception in command 'cleanup messages'
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\mod.py", line 865, in messages
+    await self.mass_purge(to_delete)
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\mod.py", line 1286, in mass_purge
+    await self.bot.delete_messages(messages[:100])
+  File "lib\discord\client.py", line 1302, in delete_messages
+    yield from self.http.delete_messages(channel.id, message_ids, guild_id)
+  File "lib\discord\http.py", line 200, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: BAD REQUEST (status code: 400): You can only bulk delete messages that are under 14 days old.
+[21/07/2017 18:50] ERROR red on_command_error 369: Exception in command 'gardening convert'
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\planttycoon.py", line 406, in _convert
+    if self.bank.account_exists(id):
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\economy.py", line 141, in account_exists
+    self._get_account(user)
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\economy.py", line 254, in _get_account
+    server = user.server
+AttributeError: 'User' object has no attribute 'server'
+[21/07/2017 18:50] ERROR red on_command_error 369: Exception in command 'gardening convert'
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\planttycoon.py", line 406, in _convert
+    if self.bank.account_exists(id):
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\economy.py", line 141, in account_exists
+    self._get_account(user)
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\economy.py", line 254, in _get_account
+    server = user.server
+AttributeError: 'User' object has no attribute 'server'
+[21/07/2017 18:52] ERROR red on_command_error 369: Exception in command 'gardening convert'
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\planttycoon.py", line 406, in _convert
+    if self.bank.account_exists(id):
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\economy.py", line 141, in account_exists
+    self._get_account(user)
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\economy.py", line 254, in _get_account
+    server = user.server
+AttributeError: 'User' object has no attribute 'server'
+[22/07/2017 07:00] ERROR red on_command_error 369: Exception in command 'gardening convert'
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\planttycoon.py", line 406, in _convert
+    if self.bank.account_exists(id):
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\economy.py", line 141, in account_exists
+    self._get_account(user)
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\economy.py", line 254, in _get_account
+    server = user.server
+AttributeError: 'User' object has no attribute 'server'
+[22/07/2017 16:37] ERROR red on_command_error 369: Exception in command 'points add'
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\points.py", line 217, in _add
+    if not self.permcheck(ctx):
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\points.py", line 46, in permcheck
+    if "bookkeeper" in self.db[server.id]:
+KeyError: '324296893167566849'
+[22/07/2017 16:37] ERROR red on_command_error 369: Exception in command 'points add'
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\points.py", line 217, in _add
+    if not self.permcheck(ctx):
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\points.py", line 46, in permcheck
+    if "bookkeeper" in self.db[server.id]:
+KeyError: '318209361124261900'
+[22/07/2017 17:13] ERROR red on_command_error 369: Exception in command 'cleanup after'
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\mod.py", line 819, in after
+    after = await self.bot.get_message(channel, message_id)
+  File "lib\discord\client.py", line 1474, in get_message
+    data = yield from self.http.get_message(channel.id, id)
+  File "lib\discord\http.py", line 196, in request
+    raise Forbidden(r, data)
+discord.errors.Forbidden: FORBIDDEN (status code: 403): Missing Access
+[22/07/2017 17:14] ERROR red on_command_error 369: Exception in command 'cleanup after'
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\mod.py", line 819, in after
+    after = await self.bot.get_message(channel, message_id)
+  File "lib\discord\client.py", line 1474, in get_message
+    data = yield from self.http.get_message(channel.id, id)
+  File "lib\discord\http.py", line 196, in request
+    raise Forbidden(r, data)
+discord.errors.Forbidden: FORBIDDEN (status code: 403): Missing Access
+[22/07/2017 17:15] ERROR red on_command_error 369: Exception in command 'cleanup after'
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\mod.py", line 819, in after
+    after = await self.bot.get_message(channel, message_id)
+  File "lib\discord\client.py", line 1474, in get_message
+    data = yield from self.http.get_message(channel.id, id)
+  File "lib\discord\http.py", line 196, in request
+    raise Forbidden(r, data)
+discord.errors.Forbidden: FORBIDDEN (status code: 403): Missing Access
+[22/07/2017 21:43] ERROR red on_command_error 369: Exception in command 'gardening convert'
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\planttycoon.py", line 406, in _convert
+    if self.bank.account_exists(id):
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\economy.py", line 141, in account_exists
+    self._get_account(user)
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\economy.py", line 254, in _get_account
+    server = user.server
+AttributeError: 'User' object has no attribute 'server'
+[23/07/2017 09:58] ERROR red load_cogs 573: 'int' object is not iterable
+Traceback (most recent call last):
+  File "red.py", line 570, in load_cogs
+    owner_cog._load_cog(extension)
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\owner.py", line 947, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib\discord\ext\commands\bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\snacktime.py", line 431, in setup
+    check_files()
+  File "C:\Users\Carlos\Documents\Red-DiscordBot\cogs\snacktime.py", line 419, in check_files
+    missing_keys = set(DEFAULT_SETTINGS) - set(unit_settings)
+TypeError: 'int' object is not iterable
+[24/07/2017 19:11] INFO triggerreact _check_folders 162: Creating data/triggerreact folder...
+[24/07/2017 19:11] INFO triggerreact _check_files 167: Creating json: data/triggerreact/triggers.json

@@ -1,0 +1,139 @@
+{
+    "100749832058077184" : {
+        "badges" : [],
+        "current" : {
+            "article" : "a",
+            "badge" : "Sporadic",
+            "degradation" : 1,
+            "health" : -4634.566666666779,
+            "image" : "http://i.imgur.com/Dhw9ync.jpg",
+            "name" : "Koki'o",
+            "rarity" : "rare",
+            "reward" : 2400,
+            "threshold" : 110,
+            "time" : 7200,
+            "timestamp" : 1500821193
+        },
+        "points" : 15615,
+        "products" : {
+            "nitrates" : 2,
+            "water" : 47
+        }
+    },
+    "182913116579954688" : {
+        "badges" : [
+            "Flower Power"
+        ],
+        "current" : false,
+        "points" : 1125,
+        "products" : {
+            "fungicide" : 2,
+            "water" : 14
+        }
+    },
+    "183619059525353472" : {
+        "badges" : [],
+        "current" : false,
+        "points" : 190,
+        "products" : {
+            "manure" : 4,
+            "water" : 37
+        }
+    },
+    "185545255834091521" : {
+        "badges" : [],
+        "current" : {
+            "article" : "a",
+            "badge" : "Sporadic",
+            "degradation" : 1,
+            "health" : -4852.916666666676,
+            "image" : "http://i.imgur.com/lhSjfQY.jpg",
+            "name" : "Parrot's Beak",
+            "rarity" : "rare",
+            "reward" : 2400,
+            "threshold" : 110,
+            "time" : 7200,
+            "timestamp" : 1500851600
+        },
+        "points" : 11820,
+        "products" : {
+            "water" : 4
+        }
+    },
+    "191902789465538560" : {
+        "badges" : [],
+        "current" : false,
+        "points" : 300,
+        "products" : {
+            "water" : 4
+        }
+    },
+    "208020419721166849" : {
+        "badges" : [
+            "Flower Power",
+            "Fruit Brute",
+            "Sporadic"
+        ],
+        "current" : {
+            "article" : "a",
+            "badge" : "Fruit Brute",
+            "degradation" : 0.75,
+            "health" : -766.3999999999904,
+            "image" : "http://i.imgur.com/McNnMqa.jpg",
+            "name" : "Mangosteen Tree",
+            "rarity" : "uncommon",
+            "reward" : 1200,
+            "threshold" : 110,
+            "time" : 5400,
+            "timestamp" : 1500928458
+        },
+        "points" : 19745,
+        "products" : {
+            "manure" : 1,
+            "nitrates" : 2,
+            "pruner" : 8,
+            "vermicompost" : 1,
+            "water" : 59
+        }
+    },
+    "215268291407642624" : {
+        "badges" : [
+            "Fruit Brute"
+        ],
+        "current" : false,
+        "points" : 675,
+        "products" : {
+            "water" : 4
+        }
+    },
+    "266398192050896896" : {
+        "badges" : [
+            "Fruit Brute",
+            "Flower Power"
+        ],
+        "current" : false,
+        "points" : 1635,
+        "products" : {
+            "manure" : 6,
+            "vermicompost" : 8,
+            "water" : 9
+        }
+    },
+    "269976718733869058" : {
+        "badges" : [],
+        "current" : false,
+        "points" : 125,
+        "products" : {
+            "manure" : 5,
+            "water" : 5
+        }
+    },
+    "325859658688495616" : {
+        "badges" : [],
+        "current" : false,
+        "points" : 260,
+        "products" : {
+            "water" : 12
+        }
+    }
+}

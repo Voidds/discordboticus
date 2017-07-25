@@ -1,0 +1,168 @@
+{
+    "Servers" : {
+        "285072791747690507" : {
+            "Config" : {
+                "Inventory Output Method" : "Chat",
+                "Member Discount" : null,
+                "Pending Type" : "Manual",
+                "Shop Name" : "Glanni's Treasure Stash",
+                "Shop Notify" : false,
+                "Shop Open" : true,
+                "Shop Role" : null,
+                "Sort Method" : "Alphabet",
+                "Store Output Method" : "Chat",
+                "Trade Cooldown" : 600
+            },
+            "Pending" : {},
+            "Shop List" : {
+                "A Hug" : {
+                    "Buy Msg" : [],
+                    "Discount" : 0,
+                    "Item Cost" : 250,
+                    "Item Name" : "A Hug",
+                    "Members Only" : "No",
+                    "Quantity" : "\u221e"
+                },
+                "A Kiss" : {
+                    "Buy Msg" : [],
+                    "Discount" : 0,
+                    "Item Cost" : 500,
+                    "Item Name" : "A Kiss",
+                    "Members Only" : "No",
+                    "Quantity" : "\u221e"
+                },
+                "Criminal" : {
+                    "Buy Msg" : [],
+                    "Discount" : 0,
+                    "Item Cost" : 100000,
+                    "Item Name" : "Criminal",
+                    "Members Only" : "No",
+                    "Quantity" : 5,
+                    "Role" : "338073335168761856"
+                },
+                "Gold Bar" : {
+                    "Buy Msg" : [],
+                    "Discount" : 0,
+                    "Item Cost" : 5000,
+                    "Item Name" : "Gold Bar",
+                    "Members Only" : "No",
+                    "Quantity" : "\u221e"
+                },
+                "Hero" : {
+                    "Buy Msg" : [],
+                    "Discount" : 0,
+                    "Item Cost" : 100000,
+                    "Item Name" : "Hero",
+                    "Members Only" : "No",
+                    "Quantity" : 5,
+                    "Role" : "338073327526739969"
+                },
+                "Sports Elf" : {
+                    "Buy Msg" : [],
+                    "Discount" : 0,
+                    "Item Cost" : 100000,
+                    "Item Name" : "Sports Elf",
+                    "Members Only" : "No",
+                    "Quantity" : 5,
+                    "Role" : "338073332811563008"
+                },
+                "The Finger" : {
+                    "Buy Msg" : [],
+                    "Discount" : 0,
+                    "Item Cost" : 1000,
+                    "Item Name" : "The Finger",
+                    "Members Only" : "No",
+                    "Quantity" : "\u221e"
+                },
+                "Villain" : {
+                    "Buy Msg" : [],
+                    "Discount" : 0,
+                    "Item Cost" : 100000,
+                    "Item Name" : "Villain",
+                    "Members Only" : "No",
+                    "Quantity" : 5,
+                    "Role" : "338073329799921667"
+                }
+            },
+            "Users" : {
+                "124988543096455169" : {
+                    "Block Trades" : false,
+                    "Inventory" : {
+                        "The Finger" : {
+                            "Item Name" : "The Finger",
+                            "Item Quantity" : 1
+                        }
+                    },
+                    "Member" : false,
+                    "Trade Cooldown" : 0
+                },
+                "151004023615520768" : {
+                    "Block Trades" : false,
+                    "Inventory" : {
+                        "The Finger" : {
+                            "Item Name" : "The Finger",
+                            "Item Quantity" : 1
+                        }
+                    },
+                    "Member" : false,
+                    "Trade Cooldown" : 0
+                },
+                "208020419721166849" : {
+                    "Block Trades" : false,
+                    "Inventory" : {
+                        "A Hug" : {
+                            "Item Name" : "A Hug",
+                            "Item Quantity" : 3
+                        },
+                        "A Kiss" : {
+                            "Item Name" : "A Kiss",
+                            "Item Quantity" : 2
+                        }
+                    },
+                    "Member" : false,
+                    "Trade Cooldown" : 0
+                },
+                "215211107621666816" : {
+                    "Block Trades" : false,
+                    "Inventory" : {
+                        "A Kiss" : {
+                            "Item Name" : "A Kiss",
+                            "Item Quantity" : 1
+                        }
+                    },
+                    "Member" : false,
+                    "Trade Cooldown" : 0
+                },
+                "286225818169114634" : {
+                    "Block Trades" : false,
+                    "Inventory" : {
+                        "A Kiss" : {
+                            "Item Name" : "A Kiss",
+                            "Item Quantity" : 1
+                        }
+                    },
+                    "Member" : false,
+                    "Trade Cooldown" : 0
+                }
+            }
+        },
+        "318209361124261900" : {
+            "Config" : {
+                "Inventory Output Method" : "Chat",
+                "Member Discount" : null,
+                "Pending Type" : "Manual",
+                "Shop Name" : "Jumpman's",
+                "Shop Notify" : false,
+                "Shop Open" : true,
+                "Shop Role" : null,
+                "Sort Method" : "Alphabet",
+                "Store Output Method" : "Chat",
+                "Trade Cooldown" : 30
+            },
+            "Pending" : {},
+            "Shop List" : {},
+            "Users" : {}
+        }
+    },
+    "Version" : "2.2.8"
+}

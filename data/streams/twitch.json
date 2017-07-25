@@ -1,0 +1,36 @@
+[
+    {
+        "ALREADY_ONLINE" : false,
+        "CHANNELS" : [
+            "337800149231468546",
+            "285072791747690507"
+        ],
+        "ID" : "38560230",
+        "NAME" : "jaybzieh"
+    },
+    {
+        "ALREADY_ONLINE" : false,
+        "CHANNELS" : [
+            "285072791747690507"
+        ],
+        "ID" : "81827743",
+        "NAME" : "unusualjournalist"
+    },
+    {
+        "ALREADY_ONLINE" : false,
+        "CHANNELS" : [
+            "337800149231468546"
+        ],
+        "ID" : "93401752",
+        "NAME" : "Kalanax"
+    },
+    {
+        "ALREADY_ONLINE" : false,
+        "CHANNELS" : [
+            "285072791747690507",
+            "337800149231468546"
+        ],
+        "ID" : "38362008",
+        "NAME" : "mintehz"
+    }
+]

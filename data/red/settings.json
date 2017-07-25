@@ -1,0 +1,21 @@
+{
+    "324296893167566849" : {
+        "ADMIN_ROLE" : "Number One",
+        "MOD_ROLE" : "Henchmen",
+        "PREFIXES" : [
+            "!"
+        ]
+    },
+    "EMAIL" : null,
+    "OWNER" : "208020419721166849",
+    "PASSWORD" : null,
+    "PREFIXES" : [
+        "lt!"
+    ],
+    "TOKEN" : "MzM3MDQ0ODM5MjM5NjQ3MjUz.DFBJIQ.Dj1VSLm_mvVsaITMzdLJ5Flp5do",
+    "default" : {
+        "ADMIN_ROLE" : "Mayor",
+        "MOD_ROLE" : "Hero",
+        "PREFIXES" : []
+    }
+}

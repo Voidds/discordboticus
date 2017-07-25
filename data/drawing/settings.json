@@ -1,0 +1,56 @@
+{
+    "build" : {
+        "285072791747690507" : {
+            "youtube" : {
+                "frame" : "white",
+                "small" : false
+            }
+        },
+        "290237262665351168" : {
+            "youtube" : {
+                "frame" : "white",
+                "small" : false
+            }
+        },
+        "318209361124261900" : {
+            "youtube" : {
+                "frame" : "white",
+                "small" : false
+            }
+        },
+        "324296893167566849" : {
+            "youtube" : {
+                "frame" : "white",
+                "small" : false
+            }
+        }
+    },
+    "text" : {
+        "285072791747690507" : {
+            "bot_sign" : "username"
+        },
+        "290237262665351168" : {
+            "bot_sign" : "sinon"
+        },
+        "318209361124261900" : {
+            "bot_sign" : "sinon"
+        },
+        "324296893167566849" : {
+            "bot_sign" : "sinon"
+        }
+    },
+    "userbar" : {
+        "285072791747690507" : {
+            "background" : "data/drawing/285072791747690507/custom_bg"
+        },
+        "290237262665351168" : {
+            "background" : "data/drawing/bg.png"
+        },
+        "318209361124261900" : {
+            "background" : "data/drawing/bg.png"
+        },
+        "324296893167566849" : {
+            "background" : "data/drawing/bg.png"
+        }
+    }
+}
