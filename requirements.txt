@@ -1,5 +1,5 @@
 pip
-python
+python==3.5.3
 git+git://github.com/Rapptz/discord.py.git#egg=discord.py[voice]
 dj-database-url==0.4.1
 Django==1.11
