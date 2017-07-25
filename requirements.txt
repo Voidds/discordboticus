@@ -2,6 +2,7 @@ pip
 git+git://github.com/Rapptz/discord.py.git#egg=discord.py[voice]
 gunicorn
 dj-database-url
+psycopg2
 django
 youtube_dl
 imgurpython
