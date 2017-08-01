@@ -1,1 +1,1 @@
-bot: ./start_red_autorestart.bat
+bot: ./start_red.bat
