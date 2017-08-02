@@ -1,1 +1,1 @@
-bot: ./launcher.py
+bot: ./red.py
